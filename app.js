@@ -1,7 +1,7 @@
 // app.js
 
 // --- CONFIGURATION ---
-const HINT_LOCKOUT_SECONDS = 60; 
+const HINT_LOCKOUT_SECONDS = 300; 
 // ---------------------
 
 const today = new Date();

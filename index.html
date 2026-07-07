@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дневна задача по математика</title>
+    <!-- Load MathJax for LaTeX support -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <style>
+        body {
+            /* Standard LaTeX-style serif font */
+            font-family: 'Times New Roman', Times, serif; 
+            background-color: #f4f9f4;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            border: 1px solid #ddd;
+        }
+        h1 { color: #333; font-weight: normal; }
+        .date { font-size: 1.2em; color: #666; margin-bottom: 30px; font-style: italic; }
+        .problem-text { font-size: 1.6em; margin: 20px 0; line-height: 1.4; }
+        .problem-image img { max-width: 100%; height: auto; margin-top: 15px; }
+        
+        button {
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.1em;
+            font-family: 'Times New Roman', Times, serif;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 30px;
+            transition: background-color 0.2s;
+        }
+        button:hover:not(:disabled) { background-color: #357abd; }
+        
+        /* Style for the button while the timer is running */
+        button:disabled {
+            background-color: #cccccc;
+            color: #666;
+            cursor: not-allowed;
+        }
+
+        .hint-text {
+            display: none; /* Hidden by default */
+            font-size: 1.3em;
+            color: #d9534f;
+            margin-top: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Дневна задача по математика</h1>
+        <div id="current-date" class="date"></div>
+        
+        <div id="question-container" class="problem-text">
+            <!-- JavaScript will insert the question here -->
+        </div>
+
+        <div id="image-container" class="problem-image">
+            <!-- JavaScript will insert the image here if it exists -->
+        </div>
+
+        <button id="hint-btn" disabled>Loading...</button>
+        
+        <div id="hint-container" class="hint-text">
+            <!-- JavaScript will insert the hint here -->
+        </div>
+    </div>
+
+    <!-- Load our scripts -->
+    <script src="problems.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -5,7 +5,7 @@
 // const referenceDate = "2026-07-08"; 
 //const referenceDate = "2026-07-13"; 
 //const referenceDate = "2026-07-19"; 
-const referenceDate = "2026-07-25";
+const referenceDate = "2026-07-27";
 
 const mathProblems = [
     /*

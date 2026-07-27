@@ -5,7 +5,7 @@
 // const referenceDate = "2026-07-08"; 
 //const referenceDate = "2026-07-13"; 
 //const referenceDate = "2026-07-19"; 
-const referenceDate = "2026-07-23";
+const referenceDate = "2026-07-25";
 
 const mathProblems = [
     /*
@@ -109,7 +109,7 @@ const mathProblems = [
         question: "Колко от първите 999 естествени числа съдържат цифрата 2, но не съдържат цифрата 3?",
         image: "",
         hint: "От общия брой на тези от първите 999 естествени числа, които съдържат цифрата 2, извади броя на тези, които съдържат както 2, така и 3. (Броим умно, а не хамалски!)" // Leaving this empty will hide the hint button for today
-    },
+    }
 
 
 ];

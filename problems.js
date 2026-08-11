@@ -127,7 +127,30 @@ const mathProblems = [
         question: "Бонбон, дъвка и фъстък тежат общо 9 грама, а 4 бонбона, 3 дъвки и 2 фъстъка тежат общо 28 грама. Колко грама тежат 1 бонбон, 2 дъвки и 3 фъстъка? ",
         image: "",
         hint: "" // Leaving this empty will hide the hint button for today
-    }
+    },
 
+    {
+        question: "Няколко цветенца имат по 11 листенца, а няколко – по 8 листенца. Общо листенцата са 100. Колко са цветенцата?",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
+    },
+
+    {
+        question: "Кодът на охранителна система се състои от три цифри. Колко най-голям брой различни опити трябва да се направи, за да се открие кодът на системата?",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
+    },
+
+    {
+        question: "Числата х, 2, 4 и 6 са записани върху две листчета. На всяко листче има по две числа. Колко са възможните числа х, ако произведението на числата от едното листче е равно на произведението на числата от другото листче?",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
+    },
+
+    {
+        question: "Определете числото х, ако 8.х е число между 39 и 52, а 9.х е число също между 39 и 52?",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
+    }
 
 ];

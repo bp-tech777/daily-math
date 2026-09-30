@@ -6,7 +6,7 @@
 //const referenceDate = "2026-07-13"; 
 //const referenceDate = "2026-07-19"; 
 //const referenceDate = "2026-08-09";
-const referenceDate = "2026-09-23";
+const referenceDate = "2026-09-30";
 
 const mathProblems = [
     /*
@@ -261,7 +261,7 @@ const mathProblems = [
         question: "Колко е сборът на числата от 1 до 29, които могат да се представят като произведение на два равни множителя.",
         image: "",
         hint: "Тук е по-хитро да работиш наобратно - вместо да проверяваш всяко число дали може да се представи като произведение на два равни множителя, вземи два равни множителя и виж дали произведението им е сред числата от 1 до 29." // Leaving this empty will hide the hint button for today
-    }8888888888888888888888*/
+    }8888888888888888888888
     
     {
         question: "Дадени са пет числа: 1, 2, 4, 5 и 6. Колко числа най-малко трябва да изтрием, за да мсе сигурни, че произведението на останалите може да се запише като произведение на два равни множителя?",
@@ -303,12 +303,49 @@ const mathProblems = [
         question: "Намерете x, ако 6.x е число между 33 и 50, а 7.x е число също между 33 и 50.",
         image: "",
         hint: "" // Leaving this empty will hide the hint button for today
-    },
+    },9999999999999999999999999*/
 
     {
         question: "В израза 2.2+2.2+3, поставете скоби, за да се получи най-голяма стойност. Намерете тази стойност.",
         image: "",
         hint: "" // Leaving this empty will hide the hint button for today
+    },
+
+    {
+        question: "Колко сантиметра е обиколката на правоъгълник, образуван от 35 еднакви квадратни плочки, всяка с обиколка 8 см, ако страните на правоъгълника са с дължина по-голяма от 2 см?",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
+    },
+
+    {
+        question: "Аз живея в блок на 19 етажа. Над нашия етаж има два пъти повече етажи, отколкото под нашия етаж. На кой етаж живея аз?",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
+    },
+
+    {
+        question: "Намери двуцифреното число АБ, ако (А+Б).11-АБ=31.",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
+    },
+
+    {
+        question: "Пресметни израза (1.2.3.4) : (1.2.3) + (1.3.5.7) : (1.3.5) + (1.4.7.10) : (1.4.7).",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
+    },
+
+    {
+        question: "Валя разделила няколко еднакви ябълки поравно между себе си и 11 свои приятелки. Всяка получила по половин ябълка. Колко са ябълките?",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
+    },
+
+    {
+        question: "Колко сантиметра е обиколката на правоъгълник, ако сборът на двете негови по-големи страни и едната по-малка е 17 см, а сборът на двете негови по-малки страни и едната по-голяма е 16 см?",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
     }
+
 
 ];

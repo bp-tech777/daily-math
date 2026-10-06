@@ -6,7 +6,7 @@
 //const referenceDate = "2026-07-13"; 
 //const referenceDate = "2026-07-19"; 
 //const referenceDate = "2026-08-09";
-const referenceDate = "2026-09-30";
+const referenceDate = "2026-10-06";
 
 const mathProblems = [
     /*
@@ -303,7 +303,7 @@ const mathProblems = [
         question: "Намерете x, ако 6.x е число между 33 и 50, а 7.x е число също между 33 и 50.",
         image: "",
         hint: "" // Leaving this empty will hide the hint button for today
-    },9999999999999999999999999*/
+    },9999999999999999999999999
 
     {
         question: "В израза 2.2+2.2+3, поставете скоби, за да се получи най-голяма стойност. Намерете тази стойност.",
@@ -339,10 +339,34 @@ const mathProblems = [
         question: "Валя разделила няколко еднакви ябълки поравно между себе си и 11 свои приятелки. Всяка получила по половин ябълка. Колко са ябълките?",
         image: "",
         hint: "" // Leaving this empty will hide the hint button for today
-    },
+    },00000000000000000000000000000000000*/
 
     {
         question: "Колко сантиметра е обиколката на правоъгълник, ако сборът на двете негови по-големи страни и едната по-малка е 17 см, а сборът на двете негови по-малки страни и едната по-голяма е 16 см?",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
+    },
+
+    {
+        question: "Първо записах числата: 11, 16, 21, ..., 61, 66. След това записах 77, 74, 71, ..., 5, 2. Колко числа съм записал два пъти?",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
+    },
+
+    {
+        question: "В три кутии имало общо 60 бонбона. От първата изяли 12 бонбона, във втората поставили още 3 бонбона, а от третата преместили 4 бонбона в първата кутия. Преброили бонбоните и се оказало, че и в трите кутии вече имало един и същ брой. Колко бонбона е имало в първата кутия?",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
+    },
+
+    {
+        question: "Колко е сборът на числата от 2 до 22, които могат да се представят като произведение на два различни множителя, по-малкият от които е 3?",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
+    },
+
+    {
+        question: "Колко минути трябва да извадим от 20 часа, за да получим 60 секунди?",
         image: "",
         hint: "" // Leaving this empty will hide the hint button for today
     }

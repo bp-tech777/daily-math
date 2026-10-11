@@ -6,7 +6,7 @@
 //const referenceDate = "2026-07-13"; 
 //const referenceDate = "2026-07-19"; 
 //const referenceDate = "2026-08-09";
-const referenceDate = "2026-10-06";
+const referenceDate = "2026-10-12";
 
 const mathProblems = [
     /*
@@ -339,7 +339,7 @@ const mathProblems = [
         question: "Валя разделила няколко еднакви ябълки поравно между себе си и 11 свои приятелки. Всяка получила по половин ябълка. Колко са ябълките?",
         image: "",
         hint: "" // Leaving this empty will hide the hint button for today
-    },00000000000000000000000000000000000*/
+    },00000000000000000000000000000000000
 
     {
         question: "Колко сантиметра е обиколката на правоъгълник, ако сборът на двете негови по-големи страни и едната по-малка е 17 см, а сборът на двете негови по-малки страни и едната по-голяма е 16 см?",
@@ -369,7 +369,44 @@ const mathProblems = [
         question: "Колко минути трябва да извадим от 20 часа, за да получим 60 секунди?",
         image: "",
         hint: "" // Leaving this empty will hide the hint button for today
+    }11111111111111111111111*/
+
+    {
+        question: "Днес е събота. Започваме да броим дните от утре. Кой ден от седмицата ще е след като изминат 69 дни?",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
+    },
+
+    {
+        question: "Само с цифрите 2, 0, 1 и 9 са записани всички възможни трицифрени числа с различни цифри. Колко са тези числа?",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
+    },
+
+    {
+        question: "Пърленки се пекат на голям тиган. Едновременно могат да се пекат най-много 5 пърленки. Всяка страна от пърленките се изпича за 6 минути. Колко най-малко минути ще отнеме да се изпекат 29 пърленки?",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
+    },
+
+    {
+        question: "Един квадрат е съставен от 36 по-малки квадратчета, всяко от които е с дължина на страната 5 см. Пресметнете обиколката на големия квадрат в сантиметри.",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
+    },
+
+    {
+        question: "Колко сантиметра е обиколката на правоъгълник, ако сборът на двете негови по-големи страни и едната по-малка е 25 см, а сборът на двете негови по-малки страни и едната по-голяма е 23 см?",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
+    },
+
+    {
+        question: "Един скакалец прави скокове по права линия или от 1 метър, или от 2 метра. По колко начина той може да достигне до цветче, което е на 4 метра?",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
     }
+    
 
 
 ];

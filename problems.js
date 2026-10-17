@@ -6,7 +6,7 @@
 //const referenceDate = "2026-07-13"; 
 //const referenceDate = "2026-07-19"; 
 //const referenceDate = "2026-08-09";
-const referenceDate = "2026-10-12";
+const referenceDate = "2026-10-18";
 
 const mathProblems = [
     /*
@@ -369,7 +369,7 @@ const mathProblems = [
         question: "Колко минути трябва да извадим от 20 часа, за да получим 60 секунди?",
         image: "",
         hint: "" // Leaving this empty will hide the hint button for today
-    }11111111111111111111111*/
+    }11111111111111111111111
 
     {
         question: "Днес е събота. Започваме да броим дните от утре. Кой ден от седмицата ще е след като изминат 69 дни?",
@@ -405,8 +405,24 @@ const mathProblems = [
         question: "Един скакалец прави скокове по права линия или от 1 метър, или от 2 метра. По колко начина той може да достигне до цветче, което е на 4 метра?",
         image: "",
         hint: "" // Leaving this empty will hide the hint button for today
-    }
+    }222222222222222*/
     
+    {
+        question: "Колко са двуцифрените числа XY, ако цифрите X и Y са различн и XY=X+Y+X.Y?",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
+    },
 
+    {
+        question: "Записах 11 двуцифрени и 12 едноцифрени числа. Девет от тях са четни. Три от четните числа не са едноцифрени. С колко цифри са записани нечетните числа?",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
+    },
+
+    {
+        question: "Колко са четните числа от 97 до 207?",
+        image: "",
+        hint: "" // Leaving this empty will hide the hint button for today
+    }
 
 ];
